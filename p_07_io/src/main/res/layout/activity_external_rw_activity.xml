@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExternalRWActivity">
+
+    <Button
+        android:id="@+id/test_rw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试是否允许文件读写" />
+
+    <Button
+        android:id="@+id/show_main_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示外部存储主目录" />
+
+    <Button
+        android:id="@+id/show_standard_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示标准的存储目录" />
+
+    <Button
+        android:id="@+id/show_private_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示私有区域目录" />
+
+    <Button
+        android:id="@+id/write_to_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写入字符串到file" />
+
+    <Button
+        android:id="@+id/write_to_emulated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写入字符串到emulated" />
+
+    <Button
+        android:id="@+id/delete_apk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除主目录的apk" />
+
+</LinearLayout>
